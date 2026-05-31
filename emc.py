@@ -70,3 +70,5 @@ try:
 
 except Exception as e:
     print(f"An error occurred: {e}")
+
+#i used total as a global variable and i am trying to update it inside the function but it is giving me an error because i have not declared it as global inside the function. to fix this i need to declare total as global inside the function like this:
